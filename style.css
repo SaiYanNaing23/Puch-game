@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: antiquewhite;
+}
+
+#bag{
+    margin: 0 auto;
+    width: 200px;
+    height: 500px;
+    background: url(./img/bag.png);
+    background-size: 80%;
+    background-repeat: no-repeat;
+}
+
+#bag.brust{
+    background: url(./img/bag-burst.png);
+    background-size: 80%;
+    background-repeat: no-repeat;
+}
+
+#bag-health{
+    margin: 0 auto 20px auto;
+    border: 2px solid #000;
+    width: 200px;
+}
+
+#bag-health div{
+    height: 20px;
+    background-color: crimson;
+}
+
+#controls{
+    margin: 0 auto;
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#controls button{
+    padding: 10px 20px;
+    cursor: pointer;
+}
